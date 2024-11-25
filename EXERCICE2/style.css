@@ -24,7 +24,7 @@ header {
   background-color: var(--main-color);
 }
 .subtitle {
-  background-color: color-mix(in srgb, var(--main-color), black 20%);
+  background-color: rgba(0, 0, 0, 0.224);
 }
 h1 {
   margin: 0;

@@ -2,7 +2,7 @@
 
 const pick = document.querySelector("input");
 const r = document.querySelector(":root");
-pick.addEventListener("change", handleChangeColor);
+pick.addEventListener("input", handleChangeColor);
 
 function handleChangeColor(event) {
   r.style.setProperty("--main-color", pick.value);
